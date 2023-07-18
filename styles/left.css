@@ -1,0 +1,87 @@
+.common_left {
+    position:relative;
+    padding:0 20px;
+    width:250px;
+    height:100vh;
+    background:#343A40;
+}
+.common_header {
+    display:flex;
+    align-items:center;
+    padding-top:30px;
+    margin-bottom:80px;
+}
+.logo {
+    width:36px;
+    height:36px;
+    background-image:url(../images/logo.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.common_header h1 {
+    font-size:24px;
+    color:#fff;
+    font-weight:normal;
+    margin-left:20px;
+}
+.common_content p.boundary_text {
+    color:#a9a9a9;
+    margin-bottom:30px;
+    font-size:12px;
+}
+.common_menu .menu {
+    display:flex;
+    align-items:center;
+    margin-bottom:40px;
+}
+.common_menu .menu .icon {
+    background:#a9a9a9;
+    width:20px;
+    height:20px;
+    margin-right:20px;
+}
+.common_menu .menu .icon_report {
+    background:var(--icon-report) var(--bg-properties);
+    filter: invert(76%) sepia(0%) saturate(108%) hue-rotate(141deg) brightness(91%) contrast(84%);
+}
+.common_menu .menu .icon_logout {
+    background:var(--icon-logout) var(--bg-properties);
+    filter: invert(76%) sepia(0%) saturate(108%) hue-rotate(141deg) brightness(91%) contrast(84%);
+    /* width:24px; */
+    height:24px;
+}
+.common_menu .menu p {
+    color:#a9a9a9;
+}
+.common_menu .menu.active .icon {background:#fff;}
+.common_menu .menu.active p {color:#fff;}
+.user_setting {
+    background:#fff;
+    width:calc(100% - 40px);
+    padding:10px 0;
+    position:absolute;
+    bottom:30px;
+    display:flex;
+    align-items:center;
+}
+.user_setting .profile {
+    margin-left:10px;
+    background:var(--icon-user) var(--bg-properties);
+    filter: invert(76%) sepia(0%) saturate(108%) hue-rotate(141deg) brightness(91%) contrast(84%);
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    margin-right:16px;
+}
+.user_setting .user_info {}
+.user_setting .user_info p:nth-child(1) {margin-bottom:6px;}
+.user_setting .user_info p:nth-child(2) {color:#a9a9a9;}
+.user_setting .user_btn {
+    background: var(--icon-arrow-down2) var(--bg-properties);
+    filter: invert(76%) sepia(0%) saturate(108%) hue-rotate(141deg) brightness(91%) contrast(84%);
+    width:12px;
+    height:12px;
+    position:absolute;
+    right:10px;
+}

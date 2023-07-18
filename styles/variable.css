@@ -1,0 +1,50 @@
+:root {
+    --none-font-color: #a9a9a9;
+    --active-font-color: #333;
+    --main-background-color: #F8F9FA;
+    --active-background-vibrant-blue: #0056B3;
+    --active-background-flat-blue: #343A40;
+    --container-background-color: #f5f5f5;
+    --track-background-color: #e5e5e5;
+    --dim-background-color:rgba(0, 0, 0, 0.5);
+    --white: #FFFFFF;
+    --red: #F28787;
+    --yellow: #FDAB3D;
+    --blue: #7378E7;
+    --green: #00C875;
+    --gray: #C2C1C4;
+    --hover-blue: rgba(0, 86, 179, 0.05);
+    --font-size-24: 1.5rem;
+    --font-size-14: 0.875rem;
+    --font-weight-normal: normal;
+    --common-border: 1px solid #d9d9d9;
+    --icon-search :url(../images/icon_search.svg);
+    --icon-viewer :url(../images/icon_viewer.svg);
+    --icon-upload :url(../images/icon_upload.svg);
+    --icon-delete :url(../images/icon_delete.svg);
+    --icon-arrow-down :url(../images/icon_arrow_down.svg);
+    --icon-arrow-down2 :url(../images/icon_arrow_down2.svg);
+    --icon-arrow-left :url(../images/icon_arrow_left.svg);
+    --icon-arrow-right :url(../images/icon_arrow_right.svg);
+    --icon-user :url(../images/icon_admin.svg);
+    --icon-logout :url(../images/icon_logout.svg);
+    --icon-report :url(../images/icon_report.svg);
+    --bg-properties: center/cover no-repeat;
+    --common-shadow: 1px 1px 5px 0 rgba(3, 3, 3, 0.54);
+    --light-shadow: 1px 1px 5px 0 rgba(3, 3, 3, 0.25);
+}
+
+h1 {
+    color:var(--main-font-color);
+    font-size:var(--font-size-24);
+    font-weight:var(--font-weight-normal);
+}
+p, span {
+    font-size:var(--font-size-14);
+}
+p.none, span.none {
+    color:var(--none-font-color);
+}
+p.active, span.active {
+    color:var(--active-font-color);
+}

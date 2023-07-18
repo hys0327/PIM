@@ -1,0 +1,14 @@
+
+@media (max-width: 1920px) {
+    /* 화면 크기가 1920px 이하 */
+    .report_content .search input {
+        width: calc(1670px * 0.495);
+    }
+}
+
+@media (max-width: 1440px) {
+    /* 화면 크기가 1440px 이하 */
+    .report_content .search input {
+        width: calc(1190px * 0.495);
+    }
+}
