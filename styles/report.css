@@ -342,7 +342,7 @@ section {
 .detail_info .list {
     width:55%;
     border:var(--common-border);
-    height:247px;
+    height:250px;
 }
 .detail_info .content_container {
     max-height:calc(100% - 41px);
